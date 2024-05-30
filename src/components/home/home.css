@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+  display: flex;
+  margin-left: 80px;
+  position: relative;
+  
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+ 
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #aa3131;
+  font-size: 50px;
+  font-weight: 800;
+  position: relative;
+  
+  
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+ background: #fff;
+  border-left: 4px solid   #aa3131;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+.allheader{
+    display: flex;
+    
+   
+  
+    
+}
+.hader_title p{
+    margin-top: 70px;
+    margin-left: 80px;
+    font-size: 50px;
+
+}
+.hader_title h1{
+  margin-left: 6rem;
+    font-size: 110px;
+    color: #5856d6;
+    margin-top: -30px;
+    
+   
+}
+.hader_img{
+  margin-top: 50px;
+  
+}
+.resmue {
+  background-color: #5856d6; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 9px ;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 115px;
+  position: relative;
+  }
+  
+  .resmue:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid #5856d6 ;
+  }
+  .all_doc{
+    display: flex;
+    margin-top: 5px;
+    
+  }
+  .resmue1{
+    margin-left: 80px;
+    
+  }
+  
+.code {
+  
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+ 
+  
+}
+.github{
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+}
+.github:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+@media screen and (max-width: 960px) {
+  .allheader {
+    flex-direction: column;
+    align-items: flex-start;
+    
+   
+  }
+  .hader_title p{
+   text-align: center;
+    font-size: 35px;
+    margin-top: 4rem;
+    margin-bottom: 15px;
+  }
+  .hader_title h1{
+    margin-left: 270px;
+    font-size: 60px;
+   
+  }
+
+  .hader_img img {
+    width: 100%; /* Make the image full width on smaller screens */
+     /* Add some space between the image and the text */
+  }
+  .resmue1{
+    margin-left: 220px;
+    margin-top: 50px;
+  }
+.github{
+  margin-top: 50px;
+}
+}
+@media screen and (max-width: 740px) {
+
+.hader_img{
+  margin-left: -40px;
+  
+}
+.resmue1{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.github{
+  margin-top: 40px;
+}
+.hader_title p{
+margin-left: -40px;
+margin-top: 60px;
+font-size: 32px;
+}
+.hader_title h1{
+  margin-left: 70px;
+  font-size: 60px;
+ 
+}
+
+
+
+.wrapper{
+  margin-left: 40px; /* Adjusted margin for smaller screens */
+}
+
+.wrapper .dynamic-txts{
+  margin-left: 2px; /* Adjusted margin for smaller screens */
+  height: 20px; /* Adjusted height for smaller screens */
+  line-height: 17px; /* Adjusted line-height for smaller screens */
+  overflow: hidden;
+}
+
+.dynamic-txts li{
+  list-style: none;
+  color: #aa3131;
+  font-size: 21px; /* Adjusted font size for smaller screens */
+  animation: slide 12s steps(4) infinite; /* Adjusted animation duration for smaller screens */
+}
+
+@keyframes slide {
+  100%{
+    top: -80px; /* Adjusted distance for smaller screens */
+  }
+}
+
+.dynamic-txts li span{
+  position: relative;
+  margin: 1px 0; /* Adjusted margin for smaller screens */
+  line-height:20px; /* Adjusted line-height for smaller screens */
+}
+
+.dynamic-txts li span::after{
+  margin-top: 2px; /* Adjusted margin for smaller screens */
+  height: 60%; /* Adjusted height for smaller screens */
+  border-left: 1px solid #aa3131; /* Adjusted border width for smaller screens */
+  animation: typing 3s steps(10) infinite; /* Adjusted animation duration for smaller screens */
+}
+
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 10px); /* Adjusted position for smaller screens */
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+
+
+}
+
+

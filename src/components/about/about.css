@@ -1,0 +1,219 @@
+.allabout{
+  height: 900px;
+   background-color: rgb(87, 87, 250);
+}
+.about-title h1{
+text-align: center;
+color: #fff;
+font-size: 50px;
+margin-top: 25px;
+
+}
+.about-title{
+   color: #fff;
+   font-size: 20px;
+   margin-left: 110px;
+   margin-right: 100px;
+  
+}
+.about-title h4{
+   color: blue;
+}
+.allabout .skills{
+   background-color: rgb(61, 61, 160);
+   height: 500px;
+   width: 1270px;
+   margin-left: 40px;
+   margin-top: 40px;
+   border-radius: 8px;
+   
+  
+  
+}
+
+.react h3{
+   margin-left: 50px;
+   color: #fff;
+   font-weight: normal;
+   font-size: 16px;
+   
+   }
+   .react img{
+       margin-left: 60px;
+       margin-top: 10px;
+   }
+.react{
+   margin-left: 19px;
+   margin-top: 19px;
+   
+}
+.codeskills{
+   background-color: rgb(75, 75, 235);
+   height: 530px;
+   width: 1266px;
+   margin-left: 46px;
+   margin-top: 30px;
+ 
+   border-radius: 5px;
+   display: grid;
+ grid-template-columns: repeat(6,1fr);
+  
+}
+
+.react{
+   background-color: rgb(5, 5, 36);
+   height: 110px;
+   width: 188px;
+   border-radius: 5px;
+   margin-left: 10px;
+   cursor: pointer;
+   transition: transform 0.3s ease;
+}
+.react:hover {
+   transform: scale(1.037); 
+ }
+
+ @media screen and (max-width: 960px) {
+   .allabout{
+      height: 1450px;
+    }
+   
+    .allabout .skills{
+       background-color: rgb(61, 61, 160);
+       height: 500px;
+       width: 1270px;
+       margin-left: 40px;
+       margin-top: 40px;
+       border-radius: 8px;
+       
+      
+      
+    }
+    
+    .codeskills{
+       background-color: rgb(75, 75, 235);
+       height: 920px;
+       width: 620px;
+       margin-left: 70px;
+       margin-top: 30px;
+     
+       border-radius: 5px;
+       display: grid;
+     grid-template-columns: repeat(3,1fr);
+      
+    }
+    
+   
+ }
+
+ @media screen and (max-width: 740px) {
+   .allabout{
+      height: 2150px;
+      
+    }
+   
+    .allabout .skills{
+       background-color: rgb(61, 61, 160);
+       height: 500px;
+       width: 1270px;
+       margin-left: 40px;
+       margin-top: 30px;
+       border-radius: 8px;
+       
+      
+      
+    }
+    
+    .codeskills{
+       background-color: rgb(75, 75, 235);
+       height: 920px;
+       width: 510px;
+       margin-left: 70px;
+      
+    }
+    
+    .about-title h1{
+      font-size: 50px;
+      margin-top: 2px;
+      
+      }
+      .about-title{
+         color: #fff;
+         font-size: 20px;
+         margin-left: 30px;
+         margin-right: 30px;
+        
+      }
+      .react{
+         
+         height: 110px;
+         width: 160px;  
+      }
+
+ }
+
+
+
+
+
+
+
+
+
+ 
+ @media only screen and (max-width: 477px) {
+ .codeskills{
+   margin-left: 10px;
+   width: 40px;
+   
+ }
+ .codeskills{
+   display: grid;
+   width: 22rem;
+   height: 90rem;
+  
+   grid-template-columns: repeat(2,2fr);
+   
+ }
+ @media only screen and (max-width: 390px) {
+
+   .codeskills{
+      margin-left: 10px;
+      width: 35px;
+      
+    }
+    .codeskills{
+      display: grid;
+      width: 21rem;
+      height: 90rem;
+     
+      grid-template-columns: repeat(2,2fr);
+      
+    }
+
+ }
+ .react{
+         
+   height: 110px;
+   width: 150px;  
+}
+
+ }
+ @media only screen and (min-width: 375px) and (max-width: 712px) {
+   /* Adjust styles for devices with a notch or home indicator */
+
+
+   .codeskills{
+      margin-left: 20px;
+      width: 350px;
+      
+    }
+ }
+ @media only screen and (min-width: 414px) and (max-width: 756px) {
+   /* Adjust styles for larger devices with a notch or home indicator */
+   .codeskills{
+      margin-left: 2.2rem;
+      width: 350px;
+      
+    }
+ }

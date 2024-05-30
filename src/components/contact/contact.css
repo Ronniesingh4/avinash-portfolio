@@ -1,0 +1,94 @@
+.contact_title h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 45px;
+}
+.contact_title p{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 22px;
+}
+.contact_title{
+  background-color: rgb(248, 248, 248);
+}
+.container {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.social-icon{
+  height: 40px;
+  display: flex;
+  margin-left: 1100px;
+  margin-top: 130px;
+  gap: 10px;
+  margin-bottom: 40px;
+  
+}
+@media screen and (max-width: 960px) {
+  .social-icon{
+    height: 40px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 130px;
+    gap: 10px;
+    margin-bottom: 40px;
+    
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 740px) {
+  .social-icon{
+    height: 40px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 130px;
+    gap: 10px;
+    margin-bottom: 40px;
+    
+  }
+}
