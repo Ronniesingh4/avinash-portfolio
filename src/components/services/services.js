@@ -10,7 +10,7 @@ const Box = ({ img, title,para, btn }) => {
       
       <div className="services-box">
         <div className='img-ser'>
-        <img src={img} />
+        <img src={img} alt='fff'/>
        </div>
         <h2 >{title}</h2>
         <p>{para}.</p>

@@ -25,7 +25,7 @@ import Figma from '../../assets/Figma.png';
 
 const About = () => {
   function Boxes() {
-    const [boxes, setBoxes] = useState([
+    const [boxes] = useState([
       { id: 1, heading: "React JS", photo: Reactlogo },
       { id: 2, heading: "NextJs", photo: NextJs },
       { id: 2, heading: "Redux", photo: Redux },

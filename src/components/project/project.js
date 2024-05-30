@@ -1,6 +1,6 @@
 import React from 'react';
 import './project.css';
-import Figma from '../../assets/b19.jpg'
+//import Figma from '../../assets/b19.jpg'
 import project1 from '../../assets/project.png'
 import project2 from '../../assets/project2.png'
 import project3 from '../../assets/project3.png'
@@ -12,7 +12,7 @@ const Box = ({ img, title,para }) => {
   return (
     
     <div className="box">
-      <img src={img} />
+      <img src={img}  alt='fff' />
       <h2 >{title}</h2>
       <p>{para}.</p>
     </div>
